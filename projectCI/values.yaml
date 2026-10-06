@@ -1,0 +1,8 @@
+image:
+  repository: nginx
+  tag: latest
+  labels:
+    app: nginx  
+  selector:
+    matchLabels:
+      app: myapp
