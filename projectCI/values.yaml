@@ -1,6 +1,6 @@
 image:
   repository: nginx
-  tag: latest
+  tag: "${{github.run_id}}"
   labels:
     app: nginx  
   selector:
