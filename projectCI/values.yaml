@@ -1,6 +1,6 @@
 image:
   repository: nginx
-  tag: "latest"
+  tag: 38278097640
   labels:
     app: nginx  
   selector:
