@@ -1,10 +1,6 @@
 image:
   repository: nginx
-<<<<<<< HEAD
   tag: 44016899917
-=======
-  tag: 44016899917
->>>>>>> a234e5967fd900ed353bc72203c7d559db189926
   labels:
     app: nginx  
   selector:
