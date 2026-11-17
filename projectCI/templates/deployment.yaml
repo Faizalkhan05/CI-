@@ -20,7 +20,10 @@ spec:
         image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
         ports:
         - containerPort: 80
+<<<<<<< HEAD
         volumeMounts:
         - name: html
           mountPath: /usr/share/nginx/html
      
+=======
+>>>>>>> f5d5a1156a5068848864ad02356bf45200355b5a
