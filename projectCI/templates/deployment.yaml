@@ -20,15 +20,3 @@ spec:
         image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
         ports:
         - containerPort: 80
-        volumeMounts:
-        - name: html
-          mountPath: /usr/share/nginx/html
-      volumes:
-      - name: html
-        configMap:
-          name: demo-config
-          items:
-          - key: index.html
-            path: index.html
-          - key: test.html
-            path: test.html
