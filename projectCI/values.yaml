@@ -1,6 +1,6 @@
 image:
   repository: nginx
-  tag: "44016899917"
+  tag: V1
   labels:
     app: nginx  
   selector:
